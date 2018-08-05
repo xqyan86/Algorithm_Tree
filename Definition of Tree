@@ -1,0 +1,26 @@
+Tree
+Root - The top node of a tree;
+Parent - A node which has downward node;
+Child -  A node which has upward node;
+Edge - The connection between two nodes(parent and child);
+Leaf - A node which has no child;
+Hight - A node's hight is the longest path from the node to a leaf;
+Depth - A node's depth is the number of edges from the node to the root;
+Level - A node's level = depth + 1;
+
+Binary Tree
+BT is a tree that each node has no more than two children.
+
+Binary Search Tree(BST)
+First, BST is a BT;
+Then, it is a sorted BT.
+Feature: left children <= node && right children >= node
+
+In C++, if we need to use tree, we should FIRST define a class/struct.
+class Treenode{
+public:
+  int val;
+  Treenode *left;
+  Treenode *right;
+  Treenode(int x): val(x), left(NULL), right(NULL) {};
+};
