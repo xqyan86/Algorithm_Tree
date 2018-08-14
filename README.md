@@ -1,2 +1,4 @@
 # Algorithm_Tree
-Summary of Tree, BT, BST
+In this project, I will summarize the content of tree and its applications.
+Like Binary Search, BFS and DFS.
+
